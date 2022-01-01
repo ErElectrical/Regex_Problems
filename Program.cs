@@ -10,6 +10,8 @@ namespace RegexProgram
         static void Main(string[] args)
         {
             Console.WriteLine("welcome to regex Programs ");
+            Patterns pat = new Patterns();
+            pat.Pattern();
 
         }
     }
