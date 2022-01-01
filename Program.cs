@@ -37,6 +37,10 @@ namespace RegexProgram
            string password = Console.ReadLine();
             Password1.checkPassword(password);
 
+            Console.Write("Enter your password: ");
+            string password2 = Console.ReadLine();
+            password2.checkPassword2(password2);
+
         }
     }
 }
