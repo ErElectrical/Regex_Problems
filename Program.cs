@@ -28,6 +28,14 @@ namespace RegexProgram
             string email = Console.ReadLine();
             Emailid.checkemail(email);
 
+            Console.Write("Enter your Mobile number : ");
+            string Phone = Console.ReadLine();
+            MobileNumbercs.checknumber(Phone);
+
+
+            Console.Write("Enter your password: ");
+           string password = Console.ReadLine();
+            Password1.checkPassword(password);
 
         }
     }
