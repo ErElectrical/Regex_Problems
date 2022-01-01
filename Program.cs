@@ -24,6 +24,11 @@ namespace RegexProgram
 
             ls.checkLastName(l_name);
 
+            Console.Write("Enter your email addresss: ");
+            string email = Console.ReadLine();
+            Emailid.checkemail(email);
+
+
         }
     }
 }
